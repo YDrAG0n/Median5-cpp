@@ -18,6 +18,7 @@ float median5(float v) // this will allow 2 of 5 consequent values to be failed
     {
         MF_sort[i] = MF_sort[i-1];
         i--;
+
     }
     MF_sort[i] = v;
 
