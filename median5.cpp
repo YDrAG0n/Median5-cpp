@@ -4,6 +4,7 @@
 float MF_data[5], MF_sort[5];
 
 float median5(float v) // this will allow 2 of 5 consequent values to be one-side failed
+// ~2000 bytes of code for 8051 (Keil)
 {
     int i, j;
     float vv;
